@@ -11,7 +11,7 @@ contents: read
 
 jobs:
 joke:
-if: startWith(github.evnet.comment.body, '/joke')
+if: startsWith(github.evnet.comment.body, '/joke')
 run-on: ubentu-latest
 steps:
 -uses: action/checkout@v5
