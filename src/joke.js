@@ -11,7 +11,7 @@ const options = {
 };
 
 async function getJoke(){
-Const res = await request(options);
+const res = await request(options);
 return res.joke;
 }
 
